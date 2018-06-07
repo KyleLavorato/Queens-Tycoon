@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="campusSim" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/campusSim" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/campusSim" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add directory="../../../../../../ALLEGRO/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libgcc" />
+			<Add option="-static-libstdc++" />
+			<Add library="C:/ALLEGRO/lib/liballegro-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/liballegro_acodec-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/liballegro_audio-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/libvorbisfile-1.3.2-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/libvorbis-1.3.2-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/liballegro_color-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/liballegro_dialog-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/liballegro_font-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/liballegro_image-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/liballegro_memfile-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/liballegro_physfs-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/liballegro_primitives-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/liballegro_ttf-5.0.10-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/libdumb-0.9.3-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/libFLAC-1.2.1-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/libfreetype-2.4.8-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/libogg-1.2.1-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/libzlib-1.2.5-static-mt.a" />
+			<Add library="C:/ALLEGRO/lib/libopenal-1.14-static-mt.a" />
+			<Add library="C:/MinGWCB/lib/libgdiplus.a" />
+			<Add library="C:/MinGWCB/lib/libuuid.a" />
+			<Add library="C:/MinGWCB/lib/libkernel32.a" />
+			<Add library="C:/MinGWCB/lib/libwinmm.a" />
+			<Add library="C:/MinGWCB/lib/libpsapi.a" />
+			<Add library="C:/MinGWCB/lib/libopengl32.a" />
+			<Add library="C:/MinGWCB/lib/libglu32.a" />
+			<Add library="C:/MinGWCB/lib/libuser32.a" />
+			<Add library="C:/MinGWCB/lib/libcomdlg32.a" />
+			<Add library="C:/MinGWCB/lib/libgdi32.a" />
+			<Add library="C:/MinGWCB/lib/libshell32.a" />
+			<Add library="C:/MinGWCB/lib/libole32.a" />
+			<Add library="C:/MinGWCB/lib/libadvapi32.a" />
+			<Add library="C:/MinGWCB/lib/libws2_32.a" />
+			<Add library="C:/MinGWCB/lib/libshlwapi.a" />
+		</Linker>
+		<Unit filename="Header/Building.h" />
+		<Unit filename="Header/Events.h" />
+		<Unit filename="Header/GUI.h" />
+		<Unit filename="Header/MyCampus.h" />
+		<Unit filename="Header/dealer.h" />
+		<Unit filename="Header/map.h" />
+		<Unit filename="Source/Building.cpp" />
+		<Unit filename="Source/Events.cpp" />
+		<Unit filename="Source/GUI.cpp" />
+		<Unit filename="Source/MyCampus.cpp" />
+		<Unit filename="Source/dealer.cpp" />
+		<Unit filename="Source/main.cpp" />
+		<Unit filename="Source/map.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
