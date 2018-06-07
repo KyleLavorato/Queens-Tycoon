@@ -1,7 +1,7 @@
 # Queen's Tycoon
 
 #### An 8-bit Campus Simulator
-
+---
 Queen's Tycoon is an 8-bit simulation style game, where the player takes ownership of a brand new University campus. The player must run their campus successfully by building building, hiring professors and maintaining student happiness, all while avoiding **bankruptcy**. But just like in a real University Campus, the student population is hard to control, and random social trends can throw even the best planning principals for a loop. If the player can survive a whole 50 years of running their campus they can successfully enter retirement.
 
 ## Technical Background
